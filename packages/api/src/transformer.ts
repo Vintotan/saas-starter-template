@@ -4,7 +4,7 @@ import superjson from "superjson";
 import type { JSONValue } from "superjson/dist/types";
 
 /**
- * TODO: Maybe put this in a shared package that can be safely shared between `api`, `nextjs` and `expo` packages
+ * TODO: Maybe put this in a shared package that can be safely shared between `api` and `nextjs` packages
  */
 superjson.registerCustom(
   {
